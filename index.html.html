@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeferson Ferreira | Personal Trainer</title>
+<meta name="description" content="Treinamento personalizado para evolução de força, massa muscular e condicionamento. Comece seu processo com Jeferson Ferreira.">
+<style>
+:root{
+  --bg:#080808; --card:#121212; --text:#f7f7f7; --muted:#a9a9a9;
+  --accent:#d9ff00; --line:#272727; --max:1080px;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.5}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:var(--max);margin:auto;padding:0 22px}
+.hero{min-height:92vh;display:flex;align-items:center;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:
+ radial-gradient(circle at 80% 20%,rgba(217,255,0,.15),transparent 28%),
+ linear-gradient(180deg,rgba(0,0,0,.1),rgba(0,0,0,.95));pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;position:relative}
+.kicker{color:var(--accent);font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(44px,7vw,82px);line-height:.94;margin:16px 0 22px;letter-spacing:-.045em}
+h1 span{color:var(--accent)}
+.lead{font-size:clamp(18px,2.2vw,22px);color:#ddd;max-width:650px}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+.btn{display:inline-flex;justify-content:center;align-items:center;padding:16px 22px;border-radius:12px;font-weight:900;transition:.2s}
+.btn-primary{background:var(--accent);color:#080808}.btn-secondary{border:1px solid #444;background:#151515}
+.btn:hover{transform:translateY(-2px)}
+.trust{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:14px}
+.visual{min-height:560px;border-radius:28px;background:
+ linear-gradient(145deg,#242424,#0d0d0d);border:1px solid var(--line);
+ display:flex;align-items:flex-end;padding:28px;position:relative;overflow:hidden}
+.visual:after{content:"JFR";position:absolute;right:-10px;bottom:-45px;font-size:190px;font-weight:900;color:rgba(255,255,255,.035)}
+.visual-card{position:relative;z-index:1;background:rgba(8,8,8,.86);border:1px solid #333;border-radius:18px;padding:20px;width:100%;backdrop-filter:blur(8px)}
+.visual-card strong{font-size:28px}.visual-card p{margin:5px 0 0;color:var(--muted)}
+section{padding:82px 0;border-top:1px solid var(--line)}
+.section-head{max-width:720px;margin-bottom:35px}
+.eyebrow{color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.1em;font-size:12px}
+h2{font-size:clamp(32px,5vw,54px);line-height:1;margin:10px 0 15px;letter-spacing:-.035em}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--card);border:1px solid var(--line);padding:25px;border-radius:20px}
+.card b{font-size:21px}.card p{color:var(--muted)}
+.number{font-size:13px;color:var(--accent);font-weight:900}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.step{padding:22px;border:1px solid var(--line);border-radius:18px;background:#0e0e0e}
+.step strong{display:block;margin:8px 0}.step p{color:var(--muted);font-size:14px}
+.offer{background:var(--accent);color:#080808;border-radius:28px;padding:40px}
+.offer h2{max-width:720px}.offer p{font-size:18px;max-width:700px}
+.offer .btn{background:#080808;color:white}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:760px}
+input,select,textarea{width:100%;padding:15px;border-radius:10px;border:1px solid #333;background:#111;color:white;font:inherit}
+textarea{grid-column:1/-1;min-height:110px}
+.full{grid-column:1/-1}
+footer{padding:40px 0;color:#777;font-size:13px;text-align:center}
+@media(max-width:800px){
+ .hero{min-height:auto;padding:70px 0}.hero-grid{grid-template-columns:1fr}.visual{min-height:340px}
+ .grid3,.steps{grid-template-columns:1fr}.form{grid-template-columns:1fr} textarea,.full{grid-column:auto}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kicker">Personal Trainer • Musculação</div>
+      <h1>Seu físico não muda por acaso.<br><span>Seu treino também não.</span></h1>
+      <p class="lead">Treinamento personalizado para quem quer treinar com estratégia, evoluir de verdade e construir um físico mais forte e atlético.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#comecar">QUERO COMEÇAR →</a>
+        <a class="btn btn-secondary" href="https://www.instagram.com/jefersonfr1/" target="_blank">VER INSTAGRAM</a>
+      </div>
+      <div class="trust">
+        <span>✓ Treino individualizado</span>
+        <span>✓ Acompanhamento</span>
+        <span>✓ Foco em evolução</span>
+      </div>
+    </div>
+    <div class="visual">
+      <div class="visual-card">
+        <strong>Jeferson Ferreira</strong>
+        <p>Treino • Disciplina • Evolução</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section>
+<div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">Para quem é</div>
+    <h2>Chega de treinar sem saber se está evoluindo.</h2>
+    <p class="lead">Se você já treina, mas sente que está estagnado, falta direção ou não consegue manter consistência, o próximo passo é ter um processo.</p>
+  </div>
+  <div class="grid3">
+    <div class="card"><div class="number">01</div><b>Hipertrofia</b><p>Estratégia de treino para construir massa muscular com progressão.</p></div>
+    <div class="card"><div class="number">02</div><b>Definição</b><p>Treinamento estruturado para melhorar composição corporal e condicionamento.</p></div>
+    <div class="card"><div class="number">03</div><b>Performance</b><p>Mais força, resistência, técnica e qualidade na execução.</p></div>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">Como funciona</div>
+    <h2>Um processo simples. Uma rotina mais inteligente.</h2>
+  </div>
+  <div class="steps">
+    <div class="step"><span class="number">01</span><strong>Conversa inicial</strong><p>Entendemos seu objetivo, rotina e nível atual.</p></div>
+    <div class="step"><span class="number">02</span><strong>Avaliação</strong><p>Identificamos pontos de partida e prioridades.</p></div>
+    <div class="step"><span class="number">03</span><strong>Treino</strong><p>Você recebe uma estratégia alinhada ao seu objetivo.</p></div>
+    <div class="step"><span class="number">04</span><strong>Acompanhamento</strong><p>Ajustamos o processo conforme sua evolução.</p></div>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">Por que comigo</div>
+    <h2>Não é sobre fazer mais. É sobre fazer melhor.</h2>
+  </div>
+  <div class="grid3">
+    <div class="card"><b>Treino com propósito</b><p>Cada exercício precisa ter uma razão dentro da sua estratégia.</p></div>
+    <div class="card"><b>Progressão</b><p>Acompanhar carga, execução e evolução evita ficar preso no mesmo resultado.</p></div>
+    <div class="card"><b>Consistência</b><p>Um plano que cabe na sua rotina tem mais chance de virar resultado.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="comecar">
+<div class="wrap">
+  <div class="offer">
+    <div class="eyebrow">Próximo passo</div>
+    <h2>Quer saber se o meu acompanhamento faz sentido para você?</h2>
+    <p>Preencha seus dados. A ideia é entender seu objetivo antes de falar de qualquer plano.</p>
+    <form class="form" onsubmit="sendWhatsApp(event)">
+      <input id="nome" placeholder="Seu nome" required>
+      <select id="objetivo" required>
+        <option value="">Seu principal objetivo</option>
+        <option>Ganhar massa muscular</option>
+        <option>Perder gordura</option>
+        <option>Definir o físico</option>
+        <option>Ganhar força</option>
+        <option>Melhorar condicionamento</option>
+      </select>
+      <input id="rotina" class="full" placeholder="Quantos dias por semana você consegue treinar?">
+      <textarea id="mensagem" placeholder="Conte rapidamente o que você busca no treino"></textarea>
+      <button class="btn full" type="submit">QUERO FALAR COM O JEFERSON →</button>
+    </form>
+  </div>
+</div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Jeferson Ferreira • Personal Trainer • <a href="https://www.instagram.com/jefersonfr1/">@jefersonfr1</a></div>
+</footer>
+
+<script>
+/* TROQUE pelo seu número de WhatsApp com DDI + DDD, sem espaços, sinais ou parênteses.
+   Exemplo: 5518999999999 */
+const WHATSAPP_NUMBER = "5518996267001";
+
+function sendWhatsApp(e){
+  e.preventDefault();
+  const nome = document.getElementById("nome").value;
+  const objetivo = document.getElementById("objetivo").value;
+  const rotina = document.getElementById("rotina").value;
+  const mensagem = document.getElementById("mensagem").value;
+  const text = `Olá, Jeferson! Vim pelo seu Instagram e quero saber sobre o acompanhamento.%0A%0ANome: ${encodeURIComponent(nome)}%0AObjetivo: ${encodeURIComponent(objetivo)}%0ADias por semana: ${encodeURIComponent(rotina)}%0A${encodeURIComponent(mensagem)}`;
+  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`, "_blank");
+}
+</script>
+</body>
+</html>
